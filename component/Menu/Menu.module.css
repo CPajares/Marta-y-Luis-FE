@@ -1,0 +1,29 @@
+.menu {
+  background-color: rgba(0, 0, 0, 0.836);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+.menu__list {
+  text-align: center;
+  margin: 20px;
+  cursor: pointer;
+}
+.menu__list:hover {
+  text-decoration: underline;
+  background-color: #f2d3fd;
+  padding: 5px;
+  color: #5e5462;
+  border-radius: 10px;
+}

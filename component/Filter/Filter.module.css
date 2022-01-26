@@ -1,0 +1,19 @@
+.form {
+  background-color: #f2d3fd;
+  width: 400px;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.form__container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+  border: 2px dashed black;
+}
+
+.form__select {
+  background-color: #5e5462;
+  color: white;
+  border: white;
+}

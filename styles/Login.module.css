@@ -1,0 +1,19 @@
+.main {
+  background-image: url("/images/salto.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+
+  background-color: rgba(0, 0, 0, 0.836);
+}

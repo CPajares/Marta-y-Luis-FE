@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Imprima&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Imprima", Arial, Helvetica, sans-serif;
+  background-color: #c4c4c4;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  position: fixed;
+  color: white;
+  background-color: #725e7a;
+  width: 100vw;
+  height: 10vh;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+
+li,
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+button {
+  text-decoration: none;
+  padding: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #725e7a;
+  border-radius: 6px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+button:hover {
+  color: #725e7a;
+  background-color: #c4c4c4;
+}
+
+.main-margin-bottom {
+  margin-bottom: 50px;
+}

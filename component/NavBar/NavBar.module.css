@@ -1,0 +1,20 @@
+.navMobile {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  top: 0;
+}
+
+.navMobile__burger {
+  width: 40px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.navMobile__lineBurger {
+  height: 4px;
+  background-color: white;
+}

@@ -1,0 +1,21 @@
+.form {
+  width: 50vw;
+  height: 60vh;
+  background-color: #f2d3fd;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 18px;
+  border: 2px solid black;
+  box-shadow: 5px 10px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
+.button {
+  margin-left: 30px;
+}
+.form__input {
+  width: 100%;
+}
